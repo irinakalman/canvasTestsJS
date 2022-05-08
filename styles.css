@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas {
+    border: 2px solid black;
+    width: 560px;
+  height: 360px;
+}
+menu {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 100%;
+    
+    
+}
+menu > button {
+    padding: 5px;
+    border-radius: 5px;
+    
+    background-color:#188fa7;
+    color: white;
+    font-size: 20px;
+}
+#container {
+    display: flex;
+    flex-direction: raw;
+}
